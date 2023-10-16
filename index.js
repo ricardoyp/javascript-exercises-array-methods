@@ -3,7 +3,7 @@
 // con los valores que sean mayor que 18
 // =============================================================================
 function getAdultsArray(ages) {
-  // Aquí tu código
+  return ages.filter(element => element > 18)
 }
 
 // =============================================================================
@@ -11,7 +11,7 @@ function getAdultsArray(ages) {
 // con los valores que sean par
 // =============================================================================
 function getEvenArray(numbers) {
-  // Aquí tu código
+  return numbers.filter(elemento => elemento % 2 === 0)
 }
 
 // =============================================================================
